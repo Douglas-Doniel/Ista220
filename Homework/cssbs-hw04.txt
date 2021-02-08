@@ -1,0 +1,48 @@
+## Name: Douglas Doniel
+## File: CSSBS-HW04
+## Date: January 21,2021
+
+
+
+
+
+
+
+1. What are all possible values of Boolean expression?
+**True or False**
+
+2. List the equality operators. List the relational operators. List the logical operators. How are they the same? How are they different?
+Two Boolean operators that you will frequently use are equality (==) and inequality (!=)
+<, <=, >, >= are the rational operators not and or
+They both determine values of true or false
+
+3. What is the general concept of short circuiting? This question has a short and simple answer and you do not need to have a detailed response.
+If one side evalutes a value (true or false) the entire expression must match
+
+4. What are the difference in how short circuiting works for && and ||?
+With && both values of the expression have to be true or both false
+With || just one of them have to be true or false
+
+5. Look at the list of operators. What operator has the highest precedence? Which has the lowest?
+() is the highest and = is the lowest
+6. In an if or else construction using multiple lines of code, what effect does the use of curly braces have?
+***Allows you to group a block of code together***
+
+7. In a switch statement, what happens if you omit break?
+The statement will fall through
+
+8. The four keywords in a switch statement are switch, case, break, and default. Explain what each
+keyword does.
+*switch - is a statement used a an alternate to else-if for 3 or more expressions**
+*case - is a label used to compare expressions**
+*break - terminates the closest switch and pass control**
+*default specifies the switch to execute if the match expression doesn't match any other case**
+
+9. Look at the source listing below. It contains two methods: recurr1() and recurr2(). There is a significant difference between the two methods. What is it? recurr2 has 2 parameters
+
+10. (Not in book) What is a recursive method? Using a language you know (such as English), write a recursive method that adds up the integers in a list of integers. The input to the method is a list of integers and the output is a scalar value representing a sum. 
+A method that calls on itself
+
+11. (Not in book) Read a short summary of De Morgan’s laws.
+(a) Explain how this statement, ”It’s not snowing or raining,” is the same as this statement, ”It’s not snowing and it’s not raining.” It is a disjunction statement meaning it only really works if both statements are true
+(b) Explain how this statement, ”I’m not running and walking,” is the same as this statement, ”I’m not running or I’m not walking.” this statement negates the clarification of the "and" statement but confirms the status of both statements in the or

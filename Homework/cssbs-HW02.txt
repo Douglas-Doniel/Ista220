@@ -1,0 +1,59 @@
+# Douglas Doniel
+
+### CSSBS-HW02
+
+
+
+1. **What is a *local variable?*** 
+Variables that exist only in a method or another small section of code
+
+1. **What is a *statement?***
+Using statements enable you to bring a class into scope and omit the class name when accessing static member
+
+1. **What is an *identifier?***
+Are the names that you use to identify the elements in your programs, such as namespaces,
+classes, methods, and variables
+
+1. **What is a keyword?**
+Reserved identifiers that can not be used for your own purposes
+
+1. **What is a *variable?***
+A variable is a storage location that holds a value
+
+1. *How do you declare a variable?* 
+~~How do you assign a value to a variable? Can you have a variable that
+does not have a value? Can you declare and initialize a variable in a single statement?~~
+You declare the type and name of a variable in a declaration statement.
+assignment operator declare name of variables
+
+1. What does Visual Studio do when you open a project (a .csproj file) *without* opening _the solution (a
+.sln file)?_ Why might this be a problem?
+If you open a project rather than a solution, Visual Studio 2017 automatically creates a new solution file for
+it. It could generate multiple solutions 
+
+1. How are arithmetic operators and variable types related?
+Arithmetic operators are used to add new value to variables
+operators you can use depend on the variable type
+
+1. How do you turn an integer into a string?
+Every data type in the .NET Framework has a ToString method. The purpose of ToString is to
+convert an object to its string representation
+
+1. How do you turn a string into an integer?
+By using the Parse method,The .NET Framework provides a method called Int32.Parse that you can use to convert a
+string value to an integer
+
+1. What is the difference between precedence and associativity? Give an example where this makes a
+difference.
+* Associativity is the direction (left or right) in which the operands of an operator are evaluated
+* Precedence governs the order in which an expression’s operators are evaluated
+
+1. *What is the definite assignment rule?*
+Every variable must have a value before its read from.
+
+1. *How are the prefix and postfix increment and decrement operators evaluated differently?*
+prefix is the operators are in front which represents the value after the increment or decrement took place, while postfix is the value before
+1. *What is string interpolation?*
+Generate string values that include variable values
+1. *What does the **var*** keyword do?*
+Allow the computer to decide the type of variable

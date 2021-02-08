@@ -1,0 +1,57 @@
+## Name: Douglas Doniel
+## File: cssbs-hw05-Doniel
+## Date: January 26,2021
+
+
+
+
+
+
+
+
+
+
+***1. What is a compound assignment operator? How does it work?***
+Compound assignment operator combine simple assignment operator with another binary operator
+
+***2. List all the compound assignment operators.***
+*=
+/=
+%=
++=
+-=
+
+***3. List two ways to increment a numeric variable by 5. List two ways to decrement a numeric variable by 50.***
++=5;  -=50;
+var= var + 5; /var= var - 50;
+
+***4. How long does a while loop run?***
+As long as the condition is true or you run out of memory
+
+***5. What is an iteratiion variable? (Not in book)***
+It is a variable that stores a portion o the iterable when a for loop is being executed
+
+***6. What happens if you don’t change the loop variable in the body of the while loop block?***
+
+The program will run forever creating an infinite loop
+
+
+***7. How many parts does a for loop statement have? Can you omit any of them? Can you omit all of
+them? What happens if you omit all of them?***
+There are 3 parts to a for loop (initalization, Boolean expression and code that updates the control variable)
+Yes you can omit any of the 3
+
+
+
+***8. How do you guarantee that a loop runs at least once?***
+A do while statement guarantees that a loop runs at least once.
+
+***9. What does the break statement do?***
+Break statement caused the loop to terminate.
+
+***10. What does the continue statement do?***
+the continue statement causes the program to perform the next iteration of the loop
+ immediately (after reevaluating the Boolean expression)
+
+***11. (Thought question) Can you think of any reason why you would want to have an infinite loop? ***
+An “infinite loop” is a loop without an update variable that in effect runs forever. As you will see, these kinds of loops are written intentionally to perform various kinds of tasks.

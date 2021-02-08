@@ -1,0 +1,71 @@
+## Name: Douglas Doniel
+## File: CSSBS-HW03
+## Date: January 20,2021
+
+
+
+
+
+1. What is a method?
+A method is a named block of code 
+
+2. (Not in book) What is the difference between a function and a procedure/subprocedure/subroutine?
+A function is used to calculate something from a given input.
+A procedure/subprocedure/subroutine  programming a particular set of instructions or commands along
+
+3. What does a return statement do?
+A return statement transfers control back to the caller.
+
+4. What is an expression bodied method?
+An expression-bodied method is  a simplified form for methods that comprise a single expression.
+
+5. What is the scope of a variable?
+The region of the program in which that  variable is usable.
+
+6. What is a field?
+variable defined by a class
+
+7. What is an overloaded method?
+When  two identifiers have the same name and are declared in the same scope
+
+8. How do you call a method that requires arguments?
+Write the name of the method followed by any arguments between parenthese.
+
+
+9. How do you write a method, that is, specify the method definition, that requires a parameter list?
+Write the method within a class. Specify the method name, parameter list,
+and return type, followed by the body of the method between braces
+
+10. How do you specify a parameter as optional when defining a method?
+You specify that a parameter is optional when you define a method by providing a default value for the parameter
+
+11. How do you pass a argument to a method as a named parameter?
+Specify the name of the parameter in the method call
+
+12. How do you return values from a method? Can you return multiple values from a method, and if so, how?
+ yes,by specifying a list of types as part of the method definition; one type for each value returned.
+
+
+13. What is a tuple? How do you define a method that returns multiple values? Give an example of a method that returns multiple values other than the example in the book.
+A tuple is a small collection of values. 
+
+14. Examine the method definition on page 83 of the book. Desk check the execution of this method.
+What do you discover? This is called recursion.
+1 longfactorial( int dataValue )
+2 {
+3 if ( dataValue == 1 )
+4 return1 ;
+5 else
+6 return dataValue * factorial ( dataValue = 1 ) ;
+7 }
+
+that it call itself after several loops
+
+
+
+15. How does the compiler resolve an ambiguity between named arguments and optional parameters?
+that the method call will reference the method with the closest signature, if its the same precedence and the CLR can differntiate signatures
+
+16. The book states: “A key feature of C# and other languages designed for the .NET Framework is the ability to interoperate with applications and components written with other technologies.” What is the COM and how is the CLR dependent on the COM?
+
+Component Object Model is a binary-interface standard.
